@@ -17,6 +17,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* UberMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* UberMobileTests.m */; };
+		5195D88623E1B69A005B00D8 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 5195D88523E1B69A005B00D8 /* main.jsbundle */; };
 		6AD69711474F62FA4CB996CF /* libPods-UberMobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB635BE676BE1741AA7A114 /* libPods-UberMobile-tvOSTests.a */; };
 		6D631C98A09AF6CA7E527289 /* libPods-UberMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC2A6146921D7CA17E52ECF /* libPods-UberMobileTests.a */; };
 		D4E1E64A70A04BCB3FE7E49C /* libPods-UberMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D2D8275C780C85A4AF8775 /* libPods-UberMobile.a */; };
@@ -40,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* UberMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* UberMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberMobileTests.m; sourceTree = "<group>"; };
@@ -57,6 +57,7 @@
 		235FE6E725740AD1821CB0D1 /* Pods-UberMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberMobileTests.release.xcconfig"; path = "Target Support Files/Pods-UberMobileTests/Pods-UberMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* UberMobile-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UberMobile-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* UberMobile-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UberMobile-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5195D88523E1B69A005B00D8 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		8C0988E2CDA4F486D54387EA /* Pods-UberMobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberMobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-UberMobile-tvOS/Pods-UberMobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		8FB635BE676BE1741AA7A114 /* libPods-UberMobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UberMobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B0D7919C5587A0A79FBB3E /* Pods-UberMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberMobile.release.xcconfig"; path = "Target Support Files/Pods-UberMobile/Pods-UberMobile.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +126,7 @@
 		13B07FAE1A68108700A75B9A /* UberMobile */ = {
 			isa = PBXGroup;
 			children = (
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				5195D88523E1B69A005B00D8 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -161,7 +162,6 @@
 				F02F428CE31B79BC89EFAF1C /* Pods-UberMobileTests.debug.xcconfig */,
 				235FE6E725740AD1821CB0D1 /* Pods-UberMobileTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +308,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -336,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5195D88623E1B69A005B00D8 /* main.jsbundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
