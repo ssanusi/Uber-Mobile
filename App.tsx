@@ -11,6 +11,8 @@
 import React from 'react';
 import {DefaultTheme, Provider as PaperProvider} from 'react-native-paper';
 import AppNavigation from './navigation';
+import {ApolloProvider} from '@apollo/react-hooks';
+import client from './Apollo/Client';
 
 const theme = {
   ...DefaultTheme,
@@ -23,9 +25,11 @@ const theme = {
 
 const App = () => {
   return (
-    <PaperProvider theme={theme}>
-      <AppNavigation />
-    </PaperProvider>
+    <ApolloProvider client={client}>
+      <PaperProvider theme={theme}>
+        <AppNavigation />
+      </PaperProvider>
+    </ApolloProvider>
   );
 };
 
